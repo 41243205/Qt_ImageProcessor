@@ -24,6 +24,7 @@ public:
     QCheckBox *hCheckBox;
     QCheckBox *vCheckBox;
     QPushButton *mirrorButton;
+    QPushButton *saveButton;
     QDial *rotateDial;
     QSpacerItem *vSpacer;
     QHBoxLayout *mainLayout;
@@ -34,5 +35,6 @@ public:
 private slots:
     void mirroredImage();
     void rotatedImage();
+    void saveImage();
 };
 #endif // IMAGETRANSFORM_H
