@@ -2,6 +2,7 @@
 #define IMAGEPROCESSOR_H
 
 #include "imagetransform.h"
+#include "mouseevent.h"
 #include <QMainWindow>
 #include <QAction>
 #include <QMenu>
@@ -20,7 +21,6 @@ public:
     void createMenus();
     void createToolBars();
     void loadFile(QString filename);
-private slots:
     void showGeometryTransfrom();
     void showOpenFile();
     void zoomIn();

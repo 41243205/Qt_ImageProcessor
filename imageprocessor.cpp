@@ -1,5 +1,6 @@
 #include "imageprocessor.h"
 #include "imagetransform.h"
+#include "mouseevent.h"
 #include <QHBoxLayout>
 #include <QMenuBar>
 #include <QFileDialog>
